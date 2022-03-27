@@ -26,6 +26,20 @@
 
 const int DHTPin = 14;     // (Serigrafia D3)
 
+// Definición de variables
+
+double CO2_acu
+double TVOC_acu
+double temp_acu
+double hum_acu
+
+double CO2
+double TVOC
+double temp
+double hum
+
+int n
+
 Adafruit_CCS811 ccs;
 DHT dht(DHTPin, DHTTYPE);
 
